@@ -21,11 +21,11 @@ describe Node do
     end
 
 
-    it "outarcs n2 hould be n2->n3" do
+    it "outarcs n2 should be n2->n3" do
       Set.new(@n2.out_arcs).should == (Set.new [@a23])
     end
 
-    it "inarcs n2 hould be n1->n2" do
+    it "inarcs n2 should be n1->n2" do
       Set.new(@n2.in_arcs).should == (Set.new [@a12])
     end
 
